@@ -1,0 +1,111 @@
+.model-card {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  background: #fff;
+  margin-right: 2vw;
+  margin-top: 3vh;
+  padding-bottom: 1vh;
+  border-radius: 5px;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.1s ease-in-out;
+}
+
+.model-card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+/* .model-card-chart-wrapper {
+  border: 1px solid red;
+}
+.model-card-chart-wrapper:hover {
+  cursor: default;
+} */
+.custom-model-tag { 
+  /* margin-left: auto; */
+  font-weight: 400;
+  text-decoration: none!important;
+  opacity: .8;
+  margin-left:.25vw;
+}
+.model-card:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
+}
+.model-chart-scatterplot {
+  background: #fff;
+  height: 300px;
+  width: 100%;
+  overflow-x: hidden;
+  border-radius: 4px;
+}
+.model-card h3 {
+  /* font-family: "Lato"; */
+  font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+  color: #323748;
+  font-weight: 700;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  font-size: 1rem;
+  border-top: 1px solid #eee;
+}
+.model-card-metric-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  /* font-family: Nunito; */
+  font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+  color: #323748;
+  border-top: 1px solid #eee;
+}
+.model-card-metric {
+  margin-left: 1vw;
+}
+.model-card-value {
+  margin-left: auto;
+  margin-right: 1vw;
+  font-weight: 700;
+}
+.model-card-chip {
+  color: #fff !important;
+  margin-left: auto;
+  margin-right: 1vw;
+  font-size: 0.9rem !important;
+  /* font-family: "Nunito"; */
+  font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+  border-radius: 5px !important;
+}
+.model-card-chip.true {
+  background: #43aa8b !important;
+  font-weight: 400;
+}
+.model-card-chip.false {
+  background: #d32e2e !important;
+  font-weight: 400;
+}
+.modal-card-span {
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.model-card-value.false {
+  color: #d32e2e;
+  /* font-family: Nunito; */
+  font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+  font-weight: 600;
+}
+.model-card-value.true {
+  color: #43aa8b;
+  font-weight: 600;
+}
+
+.icon {
+  margin-left: 0.5vw;
+  color: #1565C0;
+}

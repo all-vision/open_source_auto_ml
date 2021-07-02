@@ -1,0 +1,86 @@
+.access-api-modal-wrapper {
+    width: 100%;
+    display: flex;
+    margin-left: 2.5%;
+    padding-bottom: 1vh;
+    flex-direction: column;
+}
+.access-api-modal-header {
+    display: flex;
+    flex-direction: row;
+}
+.access-api-modal-header h1 {
+    /* font-family: Lato; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-weight: 700;
+    color: #323748;
+    font-size: 1.5rem;
+    margin-top: .2vh;
+}
+
+.api-key-wrapper {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+.api-key-wrapper h3 {
+    /* font-family: Lato; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-weight: 600;
+    color: #323748;
+    font-size: 1.25rem;
+}
+.api-key-wrapper-textfield {
+    width: 95%;
+    margin-top: 1vh!important;
+    height: 2rem;
+}
+.code-snippet-wrapper {
+    margin-top: 5vh;
+}
+.code-snippet-wrapper-header {
+    display: flex;
+    flex-direction: row;
+}
+.code-snippet-wrapper-header h3 {
+    /* font-family: Lato; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-weight: 600;
+    color: #323748;
+    font-size: 1.25rem;
+}
+.select-language {
+    margin-left: auto!important;
+    margin-right: 2vw!important;
+}
+.code-snippet {
+    margin-top: 1vh;
+}
+.access-api-buttons-wrapper {
+    margin-top: 2vh;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+}
+.access-api-button {
+    display: flex;
+    flex: 1;
+}
+
+.access-api-button a {
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.access-api-button.cancel {
+    margin-top: 2vh;
+    /* font-family: Nunito!important; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    text-transform: capitalize!important;
+    font-weight: 400!important;
+    color: #323748!important;
+    font-size: 1rem!important
+}
+

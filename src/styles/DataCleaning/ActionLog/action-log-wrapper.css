@@ -1,0 +1,59 @@
+.action-log-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 100%;
+}
+.action-log-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 1vh;
+    border-bottom: 1px solid #eee;
+}
+
+.add-new-step-button {
+    height: 2.5rem;
+    margin-left: .5vw!important;
+    margin-top: 1vh!important;
+    font-size: .9rem!important;
+    text-transform: capitalize!important;
+    font-family: 'Lato'!important;
+}
+.action-log-header h3 {
+    font-family: 'Nunito';
+    color: #323748;
+    font-weight: 700;
+    margin-right: .5vw;
+    margin-left: 1vw;
+    margin-top: 2.3vh;
+    font-size: 1.35rem;
+    line-height: 1rem;
+}
+.action-log-refresh {
+    margin-left: auto;
+    margin-top: 1.5vh!important;
+    margin-right: 1vw!important;
+    transition: .2 ease-in-out;
+}
+.action-log-refresh:hover {
+    opacity: .7;
+    cursor: pointer;
+    transition: .2 ease-in-out!important;
+}
+.action-log-steps-wrapper {
+    width: 100%;
+    margin-top: 1vh;
+    height: 100%;
+    overflow-y:auto
+}
+
+.action-log-execute-actions-button {
+    color: white!important;
+    font-family: Nunito!important;
+    text-transform: capitalize!important;
+    font-size: 1.1rem!important;
+    font-weight: 700!important;
+    width: 100%!important;
+    background: #1565C0!important;
+}

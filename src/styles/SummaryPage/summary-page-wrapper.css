@@ -1,0 +1,48 @@
+html {
+    background: #fafafa!important;
+    scroll-behavior: smooth;
+}
+.summary-page-main-content {
+    overflow-x: hidden;
+}
+.summary-page-wrapper {
+    flex-basis: min-content;
+    margin-left: 20rem;
+    clear: both;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+.summary-page-title-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.summary-page-title-wrapper h1 {
+    font-family: 'Lato';
+    color: #323748;
+    font-weight: 700;
+    margin-right: .5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 2rem;
+    line-height: 1rem;
+}
+.summary-page-title-wrapper h3 {
+    font-family: 'Lato';
+    color: #323748;
+    font-weight: 400;
+    opacity: .8;
+    margin-right: .5vw;
+    margin-top: 1vh;
+    font-size: 1.4rem;
+    line-height: 1rem;
+}
+.summary-page-cards-wrapper {
+    display: flex;
+    margin-top: 1vh;
+    flex-wrap: wrap;
+    width: 90%;
+    flex-direction: row;
+}

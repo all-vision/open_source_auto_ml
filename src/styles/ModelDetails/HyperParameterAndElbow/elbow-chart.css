@@ -1,0 +1,35 @@
+.elbow-chart {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4vw;
+    border-radius: 5px;
+    box-shadow: 0px 1px 15px rgba(0,0,0, .1);
+    background: white;
+    /* margin-bottom: 1vh; */
+    margin-bottom: 2vh;
+}
+.elbow-chart-header {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid #eee;
+}
+.elbow-chart-header h1 {
+    /* font-family: 'Lato'; */
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    font-weight: 600;
+    color: #323748;
+    font-size: 1.1rem;
+    padding-left: 1vw;
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+}
+.select-hyperparameter {
+    margin-left: auto!important;
+    margin-right: 3vw!important;
+    height: 4vh!important;
+    margin-top: 1vh!important;
+    width: 200px!important;
+    overflow-x: hidden!important;
+}

@@ -1,0 +1,55 @@
+.page-not-found-wrapper {
+    height: 100vh;
+    width: 100vw;
+    background: #1565C0;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.page-not-found-content {
+    position: relative;
+    text-align: center;
+    margin-top: 20vh;
+    width: min-content;
+}
+.page-not-found-header {
+    font-size: 15rem;
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    font-weight: 900;
+    color: #041425;
+}
+.page-not-found-subheader {
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #041425;
+    opacity: 1;
+    white-space: nowrap;
+}
+
+.page-not-found-helpful-links-title {
+    color: #041425;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    opacity: 1!important;
+    margin-top: .5vh;
+}
+.page-not-found-helpful-links {
+    display: flex;
+    text-align: left;
+    list-style-type: disc!important;
+    margin-top: 2vh;
+    display: list-item;
+    flex-direction: column;
+}
+.page-not-found-helpful-links li {
+    margin-top: 1.5vh;
+    list-style-type: circle;
+}
+.page-not-found-link {
+    color: #041425;
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    opacity: .8!important;
+    font-size: 1.25rem;
+    margin-top: 1.5vh;
+}

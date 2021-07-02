@@ -1,0 +1,4 @@
+.projects-table-row:hover {
+    cursor: pointer;
+    background: rgba(0,0,0, .03)!important;
+}

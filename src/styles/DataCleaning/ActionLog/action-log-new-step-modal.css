@@ -1,0 +1,51 @@
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.action-log-checkbox-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.action-log-add-new-step-modal-wrapper {
+    width: 100%!important;
+    display: flex;
+    flex-direction: column;
+}
+.action-log-add-new-step-modal-wrapper {
+    font-family: 'Lato';
+    color: #323748;
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 700;
+    margin-right: 1vw;
+}
+.action-log-add-new-step-modal-wrapper h3 {
+    font-family: 'Lato';
+    color: #323748;
+    font-size: 1.1rem;
+    text-align: left;
+    font-weight: 500;
+    margin-top: 2vh;
+}
+.action-log-select-function {
+    width: 95%!important;
+    margin-top: 1vh!important;
+    overflow-x: hidden;
+}
+
+.select-label-dropdown-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+}
+.action-log-add-new-step-buttons-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 3vh;
+}
+.action-log-add-new-step-button {
+    display: flex;
+    flex: 1;
+}

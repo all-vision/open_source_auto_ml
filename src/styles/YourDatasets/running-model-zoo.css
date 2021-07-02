@@ -1,0 +1,261 @@
+.running-model-zoo-container {
+    /* border: 1px solid red; */
+    height: 100vh;
+    width: 100vw;
+    background: #1565C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.running-model-zoo-wrapper {
+    width: 60%;
+    background: #ffff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 10px rgba(0,0,0, .1)!important;
+    border-radius: 5px;
+    height: min-content;
+    padding-bottom: 3vh;
+    /* border: 1px solid orange; */
+    /* border: 1px solid red; */
+}
+.running-model-zoo-wrapper.success {
+    width: 40%;
+}
+.running-model-zoo-success-wrapper-header {
+    display: flex;
+    flex-direction: row;
+    background: #fafafa;
+    border-bottom: 1px solid #eee;
+    padding-top: 1rem;
+    padding-left: 2vw;
+    padding-bottom: 1rem;
+}
+.running-model-zoo-success-wrapper-header h1 {
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    margin-top: .5vh;
+    margin-left: 1vw;
+    font-weight: 600;
+    color: #323748;
+}
+.running-model-zoo-success-icon {
+    color: #43aa8b;
+    font-size: 3rem!important;
+}
+.model-zoo-success-paragraph {
+    margin-left: 2vw;
+    margin-top: 2vh;
+    color: #323748;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+}
+.running-model-zoo-header {
+    width: 100%;
+    height: min-content;
+    padding-top: 1.5rem;
+    background: #fafafa;
+    overflow: hidden;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+    /* border: 1px solid red; */
+}
+.running-model-zoo-title {
+    /* white-space: nowrap; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', 'Lato','Roboto';
+    font-size: 1.3rem;
+    color: #323748;
+    font-weight: 600;
+}
+.running-model-zoo-section-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    /* padding: 1rem; */
+    height: min-content;
+}
+.running-model-zoo-section {
+    /* height: 100%; */
+    padding: .5rem;
+    flex: 1;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    /* border: 1px solid red; */
+    margin: .5rem;
+}
+.running-model-zoo-text-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid red; */
+}
+.running-model-zoo-text-section {
+    display: flex;
+    flex: 1;
+    height: 95%;
+    margin: .5rem;
+    align-items: center;
+}
+.running-model-zoo-text-section p {
+    width: min-content;
+    white-space: nowrap;
+    margin-left: auto;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    margin-right: auto;
+}
+/* .running-model-zoo-section h3 {
+    border: 1px solid red;
+    width: min-content;
+    white-space: nowrap;
+    text-align: center;
+} */
+.running-model-zoo-progress-bar {
+    border-radius: 7px;
+    width: 90%;
+    margin-left: 5%!important;
+    overflow-x: hidden;
+    margin-left: 2vw;
+    height: 1.5rem;
+    margin-top: 3vh;
+    margin-left: .5rem;
+}
+
+.running-model-zoo-progress-bar::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 7px;
+  }
+  .running-model-zoo-progress-bar::-webkit-progress-value {
+    background-color: #43aa8b;
+    border-radius: 7px;
+  }
+  .running-model-zoo-progress-bar::-moz-progress-bar {
+    border-radius: 7px;
+    width: auto;
+  }
+
+/* regular loading spiinner */
+/* !important flags to override default material ui styles */
+.running-model-zoo-spinner {
+    z-index: 2;
+    position: relative;
+    /* top: 3rem; */
+    display: block!important;
+    width: 5rem!important;
+    height: 5rem!important;
+    stroke-width: 3!important;
+    color: #1565C0!important;
+    margin: auto;
+    /* margin-left: auto!important; */
+}
+  /* success section */
+.running-model-zoo-checkmark {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #43AA8B;
+    stroke-miterlimit: 10;
+    box-shadow: inset 0px 0px 0px #43AA8B;
+    animation: fill .2s ease-in-out .2s forwards, scale .3s ease-in-out .5s both;
+    position:relative;
+    /* top: 3rem; */
+   margin: auto;
+}
+.running-model-zoo-checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+    stroke: #43AA8B;
+    fill: #fafafa;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.running-model-zoo-checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke .6s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes scale {
+    0%, 100% {
+        transform: none;
+    }
+
+    50% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+}
+
+@keyframes fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px #43AA8B;
+    }
+}
+
+
+/* model zoo finished running success section */
+.success-model-zoo-checkmark {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 3;
+    stroke: #43AA8B;
+    stroke-miterlimit: 10;
+    box-shadow: inset 0px 0px 0px #43AA8B;
+    animation: fill .2s ease-in-out .2s forwards, scale .3s ease-in-out .5s both;
+    position:relative;
+    /* top: 3rem; */
+   /* margin: auto; */
+}
+.success-model-zoo-checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+    stroke: #43AA8B;
+    fill: #fafafa;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.success-model-zoo-checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke .6s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes scale {
+    0%, 100% {
+        transform: none;
+    }
+
+    50% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+}
+
+@keyframes fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px #43AA8B;
+    }
+}

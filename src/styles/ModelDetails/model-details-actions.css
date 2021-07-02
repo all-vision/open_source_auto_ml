@@ -1,0 +1,51 @@
+.model-details-actions-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    line-height: 2rem;
+    padding-bottom: 1vh;
+}
+
+/* !important flag to override material-ui default styles */
+
+.deploy-model-api {
+    text-transform: capitalize!important;
+    /* font-family: Lato!important; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    height: 3rem!important;
+    background: #1565C0!important;
+    font-size: .95rem!important;
+    font-weight: 600!important;
+}
+.reset-clusters-button {
+    text-transform: capitalize!important;
+    /* font-family: Lato!important; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-size: .9rem!important;
+    font-weight: 400!important;
+    opacity: .7!important;
+}
+.select-clusters {
+    margin-right: 2vw!important;
+    margin-left: .5vw!important;
+    width: 200px;
+    overflow-x: hidden!important;
+}
+.dropdown-cluster-wrapper {
+    display: 'flex';
+    flex-direction: row;
+}
+.dropdown-cluster-indicator {
+    height: 10px;
+    width: 10px;
+    margin-right: .5vw;
+    border-radius: 360px;
+}
+.toggle-tooltip-switch {
+    /* border: 1px solid red!important; */
+    margin-left: 1vw!important;
+    margin-top: 1vh;
+    color: rgba(0,0,0,.5);
+    font-size: .9rem!important;
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+}

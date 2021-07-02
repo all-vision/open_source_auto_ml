@@ -1,0 +1,180 @@
+html {
+    background: #fafafa;
+  }
+  .cluster-exploration-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 75vw;
+    overflow-x: hidden;
+    /* border: 1px solid red; */
+    margin-left: 22rem;
+    margin-top: 7vh;
+    height: min-content;
+    padding-bottom: 5vh !important;
+    font-family: "Open Sans", "Lato", "Roboto";
+    color: #323748;
+  }
+
+  @media screen and (max-width: 1919px) {
+    .cluster-exploration-wrapper {
+      margin-left: 18rem;
+    }
+  }
+  
+  .cluster-exploration-header h1 {
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  .cluster-exploration-header h3 {
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-top: 0.5vh;
+  }
+.cluster-table-density-plot-section {
+  background-color: #eee;
+  border: 3px solid #e8e8e8;
+  padding-bottom: 2vh;
+}
+  .cluster-table-density-plot-section__header {
+    margin-left: 1vw;
+    margin-top: 2vh;
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    color:#323748;
+}
+.cluster-table-density-plot-section__header h1 {
+    font-size: 1.3rem;
+}
+  .cluster-table-density-plot-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    border-radius: 3px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    /* display: grid;
+    margin-top: 2vh;
+    grid-gap: 4vw;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+  }
+  .cluster-table-density-plot {
+    height:auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 21vw;
+    background-color: #fff;
+    margin: 1vw;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);  
+  }
+  .cluster-table-density-plot h1 {
+    font-size: 1rem;
+    padding-left: 1vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    font-weight: 600!important;
+    border-bottom: 1px solid #eee;
+  }
+  .cluster-table-density-plot h1 span {
+    font-weight: 700!important;
+    color: #1565C0;
+  }
+  .cluster-table-density-plot img {
+    height: auto;
+    width: auto;
+  }
+  .load-all-columns-button {
+    background: #1565C0!important;
+    margin-left: 1vw!important;
+    color: #fafafa!important;
+    width: min-content;
+    white-space: nowrap;
+    text-transform: capitalize!important;
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    margin-top: 1vh!important;
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+    font-size: 1.2rem;
+    }
+  .cluster-exploration-card-grid {
+    display: grid;
+    margin-top: 2vh;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+  .cluster-card-wrapper {
+    background: #fff;
+    height: max-content;
+    border-radius: 5px;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+  }
+  .cluster-card-wrapper:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+  }
+  .cluster-card-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+  }
+  .cluster-card-header h1 {
+    font-size: 1.2rem;
+    margin-left: 1vw;
+    font-weight: 600;
+  }
+  .cluster-card-checkbox {
+    margin-left: auto !important;
+    margin-right: 0.5vw !important;
+    align-items: top;
+  }
+  .cluster-exploration-actions-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1vh;
+    margin-top: 2vh;
+  }
+  .compare-clusters-button {
+    background: #1565c0 !important;
+    padding: 0.5rem !important;
+    font-family: "Open Sans", "Lato", "Roboto" !important;
+    color: #fafafa !important;
+    text-transform: capitalize !important;
+  }
+  .cluster-exploration-filter-group {
+    margin-left: 2vw !important;
+    margin-top: 1.5vh;
+    font-size: 0.9rem;
+    min-width: 200px !important;
+    display: flex;
+    flex-direction: row;
+  }
+  .cluster-exploration-filter-group:hover {
+    cursor: pointer;
+  }
+  .cluster-card-content {
+    width: 100%;
+    /* overflow-y: scroll; */
+    /* height: 10px; */
+  }
+  .cluster-card-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    border-bottom: 1px solid #eee;
+  }
+  .cluster-card-key {
+    margin-left: 1vw;
+  }
+  .cluster-card-value {
+    margin-left: auto;
+    margin-right: 1vw;
+    font-weight: 600;
+  }

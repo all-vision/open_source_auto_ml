@@ -1,0 +1,72 @@
+.find-similar-datapoints {
+  display: flex;
+  flex-direction: row;
+}
+
+.find-similar-datapoints-pagination-wrapper {
+  margin-left: 22rem;
+  padding-bottom: 5vh;
+}
+.load-six-more-models {
+  background: #1565c0 !important;
+  font-family: "Open Sans", "Lato", "Roboto" !important;
+  text-transform: capitalize !important;
+}
+.load-all-models {
+  margin-left: 1vw !important;
+  font-family: "Open Sans", "Lato", "Roboto" !important;
+  text-transform: capitalize !important;
+}
+.similar-datapoints-header {
+
+  font-family: "Open Sans", "Lato", "Roboto" !important;
+  color: #323748;
+  font-weight: 700;
+  margin-right: 0.5vw;
+  font-size: 1.6rem;
+}
+.similar-datapoints-subtext {
+
+  font-family: "Open Sans", "Lato", "Roboto" !important;
+  color: #323748;
+  font-weight: 400;
+  width: 75%;
+  margin-top: 1vh;
+  opacity: 0.9;
+  margin-right: 0.5vw;
+  font-size: 1.3rem;
+  line-height: 1.75rem;
+}
+.similar-datapoints-subtext span {
+  text-decoration: underline;
+}
+
+.similar-datapoints-models-wrapper h3 span {
+  text-decoration: underline;
+}
+.model-card-wrapper {
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0.5vw;
+  /* border: 1px solid red; */
+  flex-wrap: wrap;
+  padding-bottom: 2vh;
+}
+
+.model-zoo-loading-more-models {
+  font-family: 'Open Sans', 'Lato', 'Roboto';
+  color: #323748;
+  margin-top: 2vh;
+  margin-left: .5vw;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+@media screen and (max-width: 1919px) {
+  .similar-datapoints-models-wrapper {
+    margin-left: 18rem;
+  }
+  .similar-datapoints-subtext {
+    width: 90%;
+  }
+}

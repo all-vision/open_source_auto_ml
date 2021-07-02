@@ -1,0 +1,25 @@
+.projects-wrapper {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+}
+.projects-wrapper-header {
+    display: flex;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    flex-direction: row;
+}
+.projects-wrapper-header h1 {
+    font-family: 'Lato';
+    font-size: 2.5rem;
+    font-weight:700;
+    color: #323748;
+}
+.projects-header-button {
+    margin-left: 1vw!important;
+    margin-top: 1vh!important;
+    font-family: 'Nunito'!important;
+    text-transform: capitalize!important;
+    font-size: 1rem;
+    height: 35px;
+}

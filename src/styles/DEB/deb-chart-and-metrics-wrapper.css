@@ -1,0 +1,188 @@
+.model-details-chart-and-metrics-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: min-content;
+    padding-bottom: 5vh;
+    margin-top: 5vh;
+}
+.model-details-chart-wrapper {
+    flex: 1.5;
+    height: 65vh!important;
+    box-shadow: 0px 1px 15px rgba(0,0,0, .1);
+    border-radius: 5px;
+}
+.model-detail-scatterplot {
+    height: 100%;
+    background: white!important;
+    border-radius: 5px;
+}
+.emerging-behaviors-data-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.model-details-metrics-wrapper {
+    margin-left: 1.5vw;
+    margin-right: 4vw;
+    height: min-content;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 15px rgba(0,0,0, .1);
+}
+.model-details-metrics-header {
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    font-weight: 600;
+    /* font-family: Lato; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-size: 1.1rem;
+    color: #323748;
+    margin-bottom: 2.5vh;
+    padding-left: 1vw;
+    border-bottom: 1px solid #eee;
+}
+.deb-model-details-metrics-wrapper {
+    /* flex: 1; */
+    margin-left: 1.5vw;
+    margin-right: 4vw;
+    height: min-content;
+    /* border: 1px solid red; */
+    /* padding-bottom: 1vh; */
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 15px rgba(0,0,0, .1);
+}
+.deb-model-details-metrics-header {
+    padding-top: 1.5vh;
+    /* margin: 0!important; */
+    padding-bottom: 1.5vh;
+    font-weight: 700;
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    color: #323748;
+    border-bottom: 1px solid #eee;
+    padding-left: 1vw;
+}
+.emerging-behavior-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    margin-bottom: 3vh;
+}
+.emerging-behavior-color {
+    height: 1rem;
+    width: 1rem;
+    margin-top: .5vh;
+    border-radius: 360px;
+}
+.emerging-behavior-details {
+    display: flex;
+    flex-direction: column;
+    /* font-family: Lato; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    margin-left: 1vw;
+    color: #323748;
+}
+.emerging-behavior-details h3 {
+    font-weight: 600;
+}
+.emerging-behavior-details p {
+    margin-top: .5vh;
+    font-size: 1.2rem;
+    opacity: .8;
+}
+.emerging-behavior-detected-date {
+    margin-left: auto;
+    margin-right: 1vw;
+    /* font-family: Lato; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-size: 1.2rem;
+    opacity: .8;
+    color: #323748;
+}
+
+.your-data-wrapper {
+    margin-left: 1.5vw;
+    margin-right: 4vw;
+    height: min-content!important;
+    padding-bottom: 1vh;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 15px rgba(0,0,0, .1);    height: 50px;
+    margin-top: 2vh;
+}
+.your-data-header {
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    font-weight: 700;
+    /* font-family: Lato; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-size: 1rem;
+    color: #323748;
+    margin-bottom: 2.5vh;
+    padding-left: 1vw;
+    border-bottom: 1px solid #eee;
+}
+.your-data-content {
+    display: flex;
+    margin-left: 1.25vw;
+    /* font-family: Lato; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-size: 1.1rem;
+    color: #323748;
+    margin-bottom: 2vh;
+    flex-direction: row;
+}
+
+.your-data-value {
+    margin-left: auto;
+    margin-right: 1vw;
+    color: #43AA8B;
+}
+.your-data-value.total {
+    color: #323748;
+}
+
+@media screen and (max-width: 1919px) {
+
+    .model-details-chart-wrapper {
+    flex: 1.4;
+    height: 65vh!important;
+    box-shadow: 0px 1px 15px rgba(0,0,0, .1);
+    border-radius: 5px;
+}
+    .your-data-header {
+        font-size: 1rem;
+    }
+    .emerging-behaviors-data-wrapper {
+        flex: 1.25!important;
+    }
+    .emerging-behavior-details {
+        display: flex;
+        flex-direction: column;
+        /* font-family: Lato; */
+        font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+        margin-left: 1vw;
+        color: #323748;
+    }
+    .emerging-behavior-details h3 {
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .emerging-behavior-details p {
+        font-size: 1rem;
+    }
+    .emerging-behavior-detected-date {
+        font-size: 1rem;
+    }
+    .your-data-key {
+        font-size: 1rem;
+    }
+    .your-data-value {
+        font-size: 1rem;
+    }
+    .your-data-value.total {
+        color: #323748;
+        font-size: 1rem;
+    }
+  }

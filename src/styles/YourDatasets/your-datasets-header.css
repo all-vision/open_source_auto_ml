@@ -1,0 +1,69 @@
+.project-details-header {
+  display: flex;
+  /* margin-top: 2vh; */
+  padding-bottom: 1vh;
+  flex-direction: row;
+}
+.project-details-header h1 {
+  /* font-family: 'Lato'; */
+  font-family: "Open Sans", "Lato", "Roboto";
+  color: #323748;
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-right: 1vw;
+}
+.upload-data-icon {
+  margin-right: 0.5vw !important;
+}
+.project-details-header-button {
+  margin-right: 0.5vw !important;
+  text-transform: capitalize !important;
+  font-family: "Open Sans", "Lato", "Roboto" !important;
+  font-weight: 500 !important;
+  font-size: 0.95rem !important;
+  background: #1565c0 !important;
+  margin-left: 0.5vw !important;
+}
+
+.project-details-tooltip-wrapper {
+  width: min-content;
+  display: flex;
+  margin-top: 1vh;
+  font-weight: 400;
+  flex-direction: row;
+  background: rgba(21, 101, 192, 0.15);
+  border: 2px solid #1565c0;
+  white-space: nowrap;
+  padding: 0.5rem;
+  border-radius: 5px;
+  /* font-family: 'Lato'; */
+  font-family: "Open Sans", "Lato", "Roboto";
+  color: #323748;
+}
+.existing-data-count {
+  margin-top: 1vh;
+  /* font-family: 'Lato'; */
+  font-family: "Open Sans", "Lato", "Roboto";
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.your-datasets-progress-bar {
+  border-radius: 7px;
+  width: 30%;
+  overflow-x: hidden;
+  height: 1.25rem;
+  margin-top: 1.5vh;
+}
+.your-datasets-progress-bar::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 7px;
+}
+.your-datasets-progress-bar::-webkit-progress-value {
+  background-color: #43aa8b;
+  border-radius: 7px;
+}
+.your-datasets-progress-bar::-moz-progress-bar {
+  border-radius: 7px;
+  width: auto;
+}

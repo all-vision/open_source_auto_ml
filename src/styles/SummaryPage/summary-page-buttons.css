@@ -1,0 +1,10 @@
+.summary-page-buttons-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 2vh;
+}
+.summary-page-export-as-csv {
+    margin-left: auto!important;
+    margin-right: 5vw!important;
+}

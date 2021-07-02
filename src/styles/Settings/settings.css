@@ -1,0 +1,173 @@
+.settings-wrapper {
+  background: #fafafa;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.settings-content-wrapper {
+  margin-left: 22rem;
+  width: 75vw;
+  height: min-content;
+  margin-top: 5vh;
+}
+.settings-content-header {
+  font-family: "Open Sans", "Lato", "Roboto";
+  color: #323748;
+  font-weight: 600;
+}
+.settings-user-information-wrapper {
+  width: 100%;
+  height: min-content;
+  padding-bottom: 3vh;
+  margin-top: 3vh;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.settings-user-information-wrapper-title {
+  font-family: "Open Sans", "Lato", "Roboto";
+  color: #323748;
+  font-weight: 600;
+  margin-top: 2vh;
+  margin-left: 2vw;
+  font-size: 1.2rem;
+}
+.settings-user-information-wrapper-title span {
+  font-weight: 400;
+}
+.user-information-card-wrapper {
+  width: 95%;
+  margin-left: 2vw;
+  margin-top: 2vh;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid red; */
+}
+.user-information-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 0.5rem;
+  overflow: hidden;
+  /* border: 1px solid red; */
+}
+.user-information-card-header {
+  font-family: "Open Sans", "Lato", "Roboto";
+  color: #323748;
+  font-weight: 500;
+  font-size: .95rem;
+}
+.user-information-card-content {
+  font-family: "Open Sans", "Lato", "Roboto";
+  color: #323748;
+  font-weight: 400;
+  background: #f5f5f5;
+  border-radius: 5px;
+  width: 90%;
+  margin-top: 1vh;
+  padding: 0.75rem;
+  opacity: 0.9;
+  font-size: 1rem;
+}
+
+.settings-logout-wrapper {
+  width: 100%;
+  height: 100px;
+  margin-top: 3vh;
+  background: white;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.settings-logout-wrapper.delete {
+  margin-bottom: 5vh;
+}
+.settings-logout-content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.settings-logout-wrapper p {
+  font-family: "Open Sans", "Lato", "Roboto";
+  color: #323748;
+  font-weight: 400;
+  font-size: .95rem;
+  margin-top: 0.6vh;
+  opacity: 0.9;
+  margin-left: 2vw;
+}
+
+/* !important flag to override material ui styles */
+.settings-page-button {
+  margin-left: auto!important;
+  height: 45%!important;
+  font-weight: 600!important;
+  text-transform: capitalize!important;
+  /* background: #D32E2E!important; */
+  font-family: "Open Sans", "Lato", "Roboto"!important;
+  margin-top: auto!important;
+  padding-left: 1.5vw!important;
+  padding-right: 1.5vw!important;
+  margin-bottom: auto!important;
+  margin-right: 2vw!important;
+}
+
+.settings-page-button.logout{
+  color: #323748!important; 
+  /* background: #D32E2E!important; */
+}
+.settings-page-button.cancel-subscription {
+  background: #D32E2E!important;
+  color: #fafafa!important; 
+}
+/* .settings-logout-wrapper-logout-button {
+    margin-left: auto!important;
+    height: 45%!important;
+    font-weight: 600!important;
+    text-transform: capitalize!important;
+    background: #D32E2E!important;
+    color: #fafafa!important;
+  font-family: "Open Sans", "Lato", "Roboto"!important;
+    margin-top: auto!important;
+    padding-left: 1.5vw!important;
+    padding-right: 1.5vw!important;
+    margin-bottom: auto!important;
+    margin-right: 2vw!important;
+}
+
+.settings-logout-wrapper-cancel-subscription-button {
+  margin-left: auto!important;
+  height: 45%!important;
+  font-weight: 600!important;
+  text-transform: capitalize!important;
+  background: #D32E2E!important;
+  color: #fafafa!important;
+font-family: "Open Sans", "Lato", "Roboto"!important;
+  margin-top: auto!important;
+  padding-left: 1.5vw!important;
+  padding-right: 1.5vw!important;
+  margin-bottom: auto!important;
+  margin-right: 2vw!important;
+} */
+
+#email-address-to-copy {
+  font-weight: 700;
+}
+#email-address-to-copy:hover {
+  cursor: pointer;
+}
+.copy-to-clipboard-icon {
+  margin-left: .5vw;
+}
+@media screen and (max-width: 1919px) {
+    .settings-content-wrapper {
+        margin-left: 18rem;
+        width: 75vw;
+        height: min-content;
+        /* border: 1px solid red; */
+        margin-top: 5vh;
+      }
+}

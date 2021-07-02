@@ -1,0 +1,63 @@
+.action-log-step-wrapper {
+    display: flex;
+    font-family: 'Nunito';
+    flex-direction: row!important;
+    background: #fafafa;
+    box-shadow: 0px 1px 10px rgba(0,0,0, .1);
+    border-radius: 4px;
+    width: 95%;
+    margin-left: 2.5%;
+    padding-bottom: 1vh;
+}
+.action-log-step-wrapper p {
+    line-height: 4vh;
+    margin-left: .5vw;
+}
+.action-log-close-icon {
+    margin-left: auto!important;
+    margin-right: .5vw!important;
+    margin-top: .5vh!important;
+    transition: .2s ease-in-out;
+}
+.action-log-close-icon:hover {
+    opacity: .7;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.action-log-step-count {
+    font-weight: 700;
+}
+.set-span {
+    font-weight: 700;
+    margin-right: .25vw;
+}
+.column-span {
+    font-weight: 700;
+}
+.label-span {
+    font-weight: 700;
+    color: #1565C0;
+}
+
+.multiple-columns-selected {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.action-log-selected-columns-wrapper {
+    display: flex;
+    flex-direction: row;
+    background: #eee;
+    width: min-content;
+    padding-left: .75vw;
+    padding-right: .75vw;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    border-radius: 5px;
+    margin-left: .5vw;
+}
+.action-log-selected-columns-wrapper p {
+    overflow-wrap: break-word;
+    font-size: 1rem;
+    margin-left: 0!important;
+}

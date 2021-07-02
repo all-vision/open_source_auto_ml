@@ -1,0 +1,48 @@
+.summary-page-card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 325px;
+    background: white;
+    height: 475px;
+    box-shadow: 0px 1px 10px rgba(0,0,0, .1);
+    margin-right: 2%;
+    margin-top: 2vw;
+}
+@media screen and (max-width: 1919px) {
+    .summary-page-card {
+      flex-basis: 300px;
+      margin-right: 3%;
+    }
+    .bar-chart {
+     margin-left: 2.5px!important;
+    }
+  }
+
+.summary-page-card-header {
+    display: flex;
+    height: min-content;
+    padding-top: .5vh;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    flex-direction: row;
+}
+.summary-page-card-header h3 {
+    margin-left: .5vw;
+    font-family: 'Lato';
+    color: #323748;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.summary-page-card-type {
+    margin-left: auto;
+    margin-right: .5vw;
+    color: #1E88E5;
+    font-size: 1.5rem;
+}
+.summary-page-card-chart-wrapper {
+    overflow: hidden!important;
+}
+.bar-chart {
+    overflow: hidden!important;
+    margin-left: 12.5px;
+}

@@ -1,0 +1,10 @@
+.navigation-breadcrumbs-wrapper {
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    font-family: 'Nunito'!important;
+    margin-left: 5vw;
+}
+.breadcrumb-link:hover {
+    cursor: pointer;
+}

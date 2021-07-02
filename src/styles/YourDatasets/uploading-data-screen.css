@@ -1,0 +1,117 @@
+ .uploading-data-container {
+    height: 100vh;
+    width: 100vw;
+    background: #1565C0;
+    display: flex;
+    justify-content: center;
+}
+.uploading-data-screen-wrapper {
+    width: 60%;
+    background: #ffff;
+    display: flex;
+    margin-top: 20vh;
+    flex-direction: column;
+    box-shadow: 0px 1px 10px rgba(0,0,0, .1)!important;
+    border-radius: 5px;
+    height: min-content;
+    overflow: hidden;
+    padding-bottom: 3vh;
+}
+.uploading-data-screen-header {
+    display: flex;
+    flex-direction: row;
+    background: #fafafa;
+    border-bottom: 1px solid #eee;
+    padding-top: 1rem;
+    padding-left: 2vw;
+    padding-bottom: 1rem;
+}
+.uploading-data-screen-header h1 {
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    margin-top: .5vh;
+    font-weight: 600;
+    color: #323748;
+}
+.uploading-data-screen-subtitle {
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    margin-top: 1vh;
+    padding-left: 2vw;
+    font-weight: 400;
+    color: #323748;
+}
+.uploading-data-screen-spinner {
+    margin-left: auto;
+    margin-right: 2vw;
+    height: 2.5rem!important;
+    width: 2.5rem!important;
+    color: #1565C0!important;
+}
+
+.uploading-data-screen-content-wrapper {
+    width: 100%;
+    margin-top: 1vh;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    color: #323748;
+}
+.uploading-data-screen-content-wrapper p {
+    margin-top: .5vh;
+    font-size: 1.1rem;
+}
+
+.uploading-data-screen-success-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 2vw;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 3;
+    stroke: #43AA8B;
+    stroke-miterlimit: 10;
+    box-shadow: inset 0px 0px 0px #43AA8B;
+    animation: fill .2s ease-in-out .2s forwards, scale .3s ease-in-out .5s both;
+    position:relative;
+    /* top: 3rem; */
+   margin-left: auto;
+}
+.uploading-data-screen-success-icon__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+    stroke: #43AA8B;
+    fill: #fafafa;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.uploading-data-screen-success-icon__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke .6s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes scale {
+    0%, 100% {
+        transform: none;
+    }
+
+    50% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+}
+
+@keyframes fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px #43AA8B;
+    }
+}

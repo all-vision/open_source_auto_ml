@@ -1,0 +1,11 @@
+.sso-logout-button {
+    width: 100%;
+    text-transform: capitalize!important;
+    /* font-family: Nunito!important; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-size: .92rem!important;
+    font-weight: 400!important;
+    text-align: left!important;
+    justify-content: flex-start!important;
+    color: #000!important;
+}

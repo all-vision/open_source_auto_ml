@@ -1,0 +1,39 @@
+
+.current-usage-header {
+    display: flex;
+    flex-direction: row;
+}
+.current-usage-data {
+    font-family: "Open Sans", "Lato", "Roboto";
+    color: #323748;
+    font-weight: 600;
+    margin-top: 2vh;
+    margin-right: 2vw;
+    margin-left: auto;
+    font-size: 1rem;
+}
+
+.current-usage-progress-bar {
+    margin-top: 2vh;
+}
+
+.current-usage-progress-bar {
+    border-radius: 7px;
+    width: 95%;
+    overflow-x: hidden;
+    margin-left: 2vw;
+    height: 1.25rem;
+    margin-top: 1.5vh;
+  }
+  .current-usage-progress-bar::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 7px;
+  }
+  .current-usage-progress-bar::-webkit-progress-value {
+    background-color: #43aa8b;
+    border-radius: 7px;
+  }
+  .current-usage-progress-bar::-moz-progress-bar {
+    border-radius: 7px;
+    width: auto;
+  }

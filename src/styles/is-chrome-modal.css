@@ -1,0 +1,45 @@
+#is-chrome-modal-wrapper {
+    margin: auto!important;
+}
+
+.is-chrome-modal {
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: none;
+}
+.is-chrome-modal-chrome-logo {
+    width: 4rem!important;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto!important;
+}
+.is-chrome-modal h1 {
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    color: #323748;
+    font-size: 1.75rem;
+    white-space: nowrap;
+    margin-top: 2vh;
+    font-weight: 900;
+}
+.is-chrome-modal p {
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    color: #323748;
+    margin-top: 1.5vh;
+    font-size: 1.3rem;
+}
+.is-chrome-modal-button {
+    margin-top: 3vh!important;
+    padding: .5rem!important;
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    text-transform: capitalize!important;
+    width: 40%!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    font-size: 1.3rem!important;
+    background: #1565C0!important;
+    font-weight: 600!important;
+    border-radius: 5px!important;
+}

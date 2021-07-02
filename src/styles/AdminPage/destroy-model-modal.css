@@ -1,0 +1,43 @@
+.destroy-model-modal-wrapper {
+}
+.destroy-model-modal-wrapper h1{
+    /* font-family: Lato; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #323748;
+}
+
+.destroy-model-modal-wrapper p {
+    /* font-family: Lato; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-size: 1.2rem;
+    margin-top: 1vh;
+    opacity: .8;
+    font-weight: 400;
+    color: #323748;
+}
+.destroy-model-modal-wrapper p span {
+    color: #323748;
+    font-weight: 700;
+}
+
+.destroy-model-buttons-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-transform: capitalize!important;
+    font-size: 1.4rem!important;
+    /* font-family: Nunito!important; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-weight:700;
+    margin-top: 2vh;
+}
+.destroy-model-button.cancel {
+    flex:1;
+    background: #ccc!important
+}
+.destroy-model-button.destroy {
+    flex:1;
+    background: #d32f2f!important
+}

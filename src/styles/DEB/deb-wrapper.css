@@ -1,0 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+.deb-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.deb-content-wrapper {
+    margin-left: 22rem;
+    height: 500px;
+    border: 1px solid red;
+    padding-bottom: 5vh;
+    width: 100%;
+    margin-top: 9vh;
+}

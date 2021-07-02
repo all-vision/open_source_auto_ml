@@ -1,0 +1,9 @@
+.navigation-breadcrumbs-wrapper h3 span {
+    font-weight: 800;
+}
+.navigation-breadcrumbs-wrapper h3 {
+    font-weight: 300;
+    font-size: 1.8rem;
+    font-family: 'Nunito';
+    margin-left: 5vw;
+}

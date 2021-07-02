@@ -1,0 +1,60 @@
+/* .billing-and-usage-wrapper {
+  border: 1px solid red;
+} */
+html {
+  background-color: #fafafa;
+}
+.settings-current-plan-wrapper {
+  margin-left: 2vw;
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+}
+.settings-current-plan-wrapper h3 {
+  font-family: "Open Sans", "Lato", "Roboto";
+  color: #323748;
+  font-weight: 400 !important;
+}
+.settings-current-plan-text-wrapper {
+  display: flex;
+  /* border: 1px solid red; */
+  flex: 1;
+}
+.settings-current-plan-features {
+  display: flex;
+  /* border: 1px solid red; */
+  margin-right: 1vw;
+  flex: 5;
+}
+
+.settings-current-plan-feature-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  margin-right: 1vw;
+  margin-left: 1vw;
+}
+.current-plan-feature-wrapper {
+  display: flex;
+  margin-bottom: 1.5vh;
+  flex-direction: row;
+}
+.current-plan-feature-wrapper p {
+  font-weight: 400;
+  color: #323748;
+  opacity: 0.8;
+  font-size: 0.9rem;
+  margin-left: 0.5vw;
+  font-family: "Open Sans", "Lato", "Roboto";
+}
+.current-plan-upgrade-plan {
+  margin-top: 5vh;
+  margin-left: 2vw;
+  font-family: "Open Sans", "Lato", "Roboto";
+  color: #323748;
+}
+
+.current-plan-upgrade-plan span {
+  color: #43aa8b;
+}

@@ -1,0 +1,64 @@
+.project-details-dataset-table {
+    margin-top: 3vh;
+    box-shadow: 0px 1px 10px rgba(0,0,0, .1)!important;
+}
+.dataset-table-link {
+    color: #323748!important;
+    font-weight: 600;
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    font-size: .95rem;
+    transition: .2s ease-in-out;
+    
+        
+    text-decoration: underline;
+    margin-left: 0.5vw;
+
+  
+
+}
+.dataset-table-link:hover {
+    color: #1565C0!important;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.no-results-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin-top: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.no-files-found-wrapper {
+    text-align: center;
+    margin-top: 8vh;
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    color: #323748;
+}
+.upload-files-prompt {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.no-files-found-wrapper p {
+    font-weight: 400;
+    margin-top: .25vh;
+    opacity: .8;
+    font-size: 1.1rem;
+}
+.no-results-wrapper h3 {
+    /* font-family: 'Lato'; */
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    color: #323748;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+    opacity: .7;
+    margin-right: 1vw;
+}
+.blank-canvas-image {
+    display: flex;
+    width: 100%;
+    margin-top: 5vh;
+    height: auto;
+}

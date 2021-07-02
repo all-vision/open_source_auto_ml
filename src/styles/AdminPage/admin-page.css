@@ -1,0 +1,133 @@
+html {
+    background: #f9f9f9!important;
+}
+body {
+    background: #f9f9f9!important;
+}
+
+.side-page-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.admin-page-main-content {
+    height: min-content;
+    width: 100%;
+    margin-left: 22rem;
+    margin-top: 5vh;
+    background: #fafafa;
+    padding-bottom: 3vh;
+
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 1919px) {
+    .admin-page-main-content {
+        width: 100%;
+        margin-left: 18rem;
+    }
+    .admin-page-analytics-wrapper  {
+        width: 95%!important;
+        height: auto;
+    }
+    .admin-page-chart-wrapper {
+        display: flex;
+        flex: 4!important;
+        height: auto!important;
+        overflow-x: hidden!important;
+        background: white;
+        box-shadow: 0px 1px 10px rgba(0,0,0, .1);
+        border-radius: 5px;
+    }
+    .admin-page-usage-wrapper {
+        display: none!important;
+        /* flex: 1.5!important; */
+        margin-left: .5vw;
+        margin-right: 1vw;
+    }
+    .daily-data-header {
+        margin-top: 3vh;
+    }
+}
+
+
+
+.admin-page-header {
+    /* font-family: Nunito; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    color: #323748;
+}
+.admin-page-header h1 {
+    /* font-family: 'Lato'; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    color: #323748;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.admin-page-header h3 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    /* font-family: 'Lato'; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    opacity: .9;
+    /* margin-top: 1vh; */
+}
+
+.daily-data-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.daily-data-header h1 {
+    /* font-family: Lato; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    color: #323748;
+    font-size: 1.2rem;
+    opacity: .9;
+    font-weight: 600;
+    margin-top: 5vh;
+}
+.admin-page-time-select {
+    margin-left: 4vw!important;
+    margin-top: 3vh!important;
+    padding: 0;
+    width: 15rem;
+}
+.admin-page-analytics-wrapper {
+    height: min-content;
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    margin-top: 3vh;
+    padding-bottom: 2vh;
+}
+
+.admin-page-chart-wrapper {
+    display: flex;
+    flex: 3;
+    height: 50vh;
+    overflow-x: hidden!important;
+    background: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0, .1);
+    border-radius: 5px;
+}
+
+.admin-page-usage-wrapper {
+    display: flex;
+    flex: 1.25;
+    margin-left: 1.5vw;
+}
+
+.deployed-models-wrapper {
+    margin-top: 4vh;
+}
+
+.deployed-models-wrapper h1 {
+    margin-top: 4vh;
+    /* font-family: Lato; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    color: #323748;
+    font-size: 1.5rem;
+    font-weight: 600;
+    opacity: .9;
+    margin-top: 5vh;
+}

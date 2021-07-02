@@ -1,0 +1,40 @@
+.warning {
+    color: red;
+}
+.deploy-model-modal-wrapper h1 {
+    /* font-family: Lato; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-weight: 600;
+    color: #323748;
+    font-size: 1.6rem;
+}
+
+.deploy-model-modal-wrapper p {
+    /* font-family: Lato; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-weight: 400;
+    margin-top: 1.4vh;
+    color: #323748;
+    opacity: .7;
+    font-size: 1.1rem;
+}
+.deploy-model-modal-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2vh;
+    padding-bottom: 2vh;
+}
+.deploy-model-modal-button {
+    display: flex;
+    text-transform: capitalize!important;
+    margin: .2vw!important;
+    /* font-family: 'Nunito'!important; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-size: 1rem!important;
+    font-weight: 600!important;
+    flex: 1;
+}
+.deploy-model-modal-button.deploy {
+    background: #1565C0!important;
+}

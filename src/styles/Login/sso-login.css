@@ -1,0 +1,40 @@
+.sso-login-logo {
+    width: 5rem;
+    border-radius: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    height: auto;
+}
+.sso-login-wrapper h1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    /* font-family: 'Lato'; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    color: #323748;
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+/*  !important flag to override default material-ui styles */
+.sso-login-button {
+    width: 50%;
+    margin-top: 2vh!important;
+    padding: 5px!important;
+    margin-left: auto!important;
+    text-transform: capitalize!important;
+    /* font-family: Nunito!important; */
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-size: 1rem!important;
+    font-weight: 600!important;
+    color: #1565C0!important;
+    border: 2px solid #1565C0!important;
+    margin-right: auto!important;
+}
+.sso-google-logo {
+    width: 1.25rem;
+    height: auto;
+    margin-right: .5vw;
+    border-radius: 360px;
+}

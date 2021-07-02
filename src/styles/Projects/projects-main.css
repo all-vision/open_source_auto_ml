@@ -1,0 +1,18 @@
+html {
+    background: #fafafa;
+}
+.projects-container {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 3%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.project-details-wrapper {
+    display: flex;
+    background: #fff;
+    flex: 1;
+    margin-left: 1vw;
+}

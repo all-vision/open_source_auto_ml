@@ -1,0 +1,22 @@
+.summary-page-cluster-chart-wrapper {
+    clear: both;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: min-content;
+}
+.summary-page-cluster-chart {
+    flex: 2.5;
+    height: 600px;
+}
+.scatterplot-chart {
+    padding: 5rem;
+    background: #fff;
+    height: min-content;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px rgba(0,0,0, .1);
+}
+.scatterplot-metrics-wrapper {
+    flex: 1.5;
+}

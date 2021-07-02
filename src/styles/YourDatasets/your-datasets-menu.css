@@ -1,0 +1,6 @@
+.save-as-csv-menu-item {
+    color: #323748;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}

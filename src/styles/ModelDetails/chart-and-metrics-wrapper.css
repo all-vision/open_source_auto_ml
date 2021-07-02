@@ -1,0 +1,142 @@
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.model-details-chart-and-metrics-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: min-content;
+  padding-bottom: 5vh;
+  margin-top: 2vh;
+}
+.model-details-chart-wrapper {
+  flex: 1.75;
+  /* height: 65vh!important; */
+  border-radius: 5px;
+}
+.model-detail-scatterplot {
+  height: 100%;
+  background: white !important;
+  border-radius: 5px;
+}
+.model-details-right-side {
+  flex: 1;
+  margin-left: 1.5vw;
+  margin-right: 4vw;
+}
+.model-details-metrics-wrapper {
+  flex-direction: column;
+  height: min-content;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+}
+.cluster-filtering-wrapper {
+  flex-direction: column;
+  height: min-content;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 3vh;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+}
+.scrolling-clusters-wrapper {
+  max-height: 25vh;
+  overflow-y: scroll;
+}
+.filter-by-cluster-size-wrapper {
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+}
+.sort-by-cluster-size {
+  line-height: 1;
+}
+
+.filter-by-cluster-size-button {
+  margin-left: 1vw !important;
+  text-transform: capitalize !important;
+  font-family: "Open Sans", "Lato", "Roboto" !important;
+  background: #1565c0 !important;
+  color: #fafafa !important;
+  font-size: 0.9rem !important;
+  padding-left: 0.5vw !important;
+  padding-right: 0.5vw !important;
+  margin-top: 0.5vh !important;
+  font-weight: 500 !important;
+}
+
+.cluster-circle {
+  border-radius: 360px;
+  height: 10px;
+  width: 10px;
+  margin: 0;
+  margin-top: 0.5vh;
+}
+
+.cluster-name {
+  margin-left: 0.5vw;
+  
+}
+.emerging-behavior-wrapper {
+  margin-top: 1.5vh;
+}
+.model-details-metrics-header {
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  margin: 0 !important;
+  /* padding-bottom: 1.5vh; */
+  font-weight: 700;
+  font-family: "Open Sans", "Lato", "Roboto" !important;
+  color: #323748;
+  border-bottom: 1px solid #eee;
+  padding-left: 1vw;
+}
+.model-details-metric-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1.25vh;
+  font-weight: 600;
+  font-family: "Open Sans", "Lato", "Roboto" !important;
+  color: #323748;
+  padding-bottom: 1.25vh;
+  border-bottom: 1px solid #eee;
+  /* border-top: 1px solid #eee; */
+}
+.model-detail-metric {
+  margin-left: 1vw;
+}
+.model-detail-value {
+  margin-left: auto;
+  margin-right: 1vw;
+  
+}
+
+.model-detail-skeleton-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.model-detail-skeleton {
+  margin-top: 0.1vh;
+}
+
+
+
+
+.cluster-grouping-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+
+@media screen and (max-width: 1919px) {
+  .model-details-metrics-wrapper {
+    flex: 1;
+  }
+  .model-details-chart-wrapper {
+    flex: 1.35;
+  }
+}
+
+
+/* style={{ marginLeft: '.5vw', border: '1px solid red' }} */

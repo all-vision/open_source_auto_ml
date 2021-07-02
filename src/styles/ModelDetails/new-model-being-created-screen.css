@@ -1,0 +1,70 @@
+
+.new-model-being-created-wrapper {
+    height: 100vh!important;
+    width: 100vw;
+    /* margin: 0;
+    padding: 0; */
+    overflow: hidden!important;
+    background: #1565C0;
+}
+.new-model-being-created-content {
+    /* border: 1px solid red; */
+    height: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+    /* white-space: nowrap; */
+    padding: 2rem
+}
+.new-model-being-created-content-header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    overflow: hidden!important;
+}
+.new-model-being-created-content-header h3 {
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    color: #fafafa;
+    font-size: 2rem;
+    white-space: nowrap;
+}
+.new-model-being-created-loader {
+    margin-left: 2vw;
+}
+.new-model-being-created-receipt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    opacity: .9;
+}
+.new-model-being-created-receipt h3 {
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    margin-top: 1vh;
+    font-size: 1.rem;
+    color: #fafafa;
+    opacity: .9;
+    font-weight: 600!important;
+}
+/* .new-model-being-created-receipt hr {
+    border: 1px solid #eee;
+    opacity: .7;
+    margin-top: 1vh;
+    border-radius: 5px;
+} */
+.receipt-item {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    color: #fafafa;
+    opacity: .7;
+    padding-top: 2vh;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 2vh;
+    font-size: 1.1rem;
+}
+.receipt-item-key {
+    font-weight: 600;
+}
+.receipt-item-value {
+    margin-left: auto;
+}

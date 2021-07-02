@@ -1,0 +1,37 @@
+.payments-page-wrapper {
+    height: min-content;
+    /* padding-bottom: 5vh; */
+    width: 100vw;
+    background: #fafafa;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden!important;
+    overflow-y: scroll!important;
+}
+.select-payment-plan {
+    flex: 2.5;
+    height: 120vh;
+    padding-bottom: 2vh;
+    background: linear-gradient(#1565c0, #023773);
+}
+.stripe-wrapper {
+    flex: 1;
+    background: #fafafa;
+}
+.get-contacted-modal-wrapper {
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    color: #323748;
+    padding: 1rem!important;
+}
+.get-contacted-modal-wrapper p {
+    margin-top: 1vh;
+}
+.get-contacted-modal-button {
+    margin-top: 1vh!important;
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    color: #323748!important;
+    text-transform: capitalize!important;
+    background: #eee!important;
+    font-weight: 600!important;
+    margin-top: 1rem!important;
+}

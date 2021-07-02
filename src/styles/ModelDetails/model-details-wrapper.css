@@ -1,0 +1,70 @@
+html {
+  background: #fafafa !important;
+}
+
+
+.flex-row{
+  display:flex;
+  flex-direction: row;
+}
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.model-assigned-to-deb-span {
+  text-decoration: underline;
+  font-weight: 600;
+}
+.model-assigned-to-deb-span:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 1919px) {
+  .model-detail-main-content {
+    width: 100%;
+    margin-left: 18rem;
+  }
+}
+.model-detail-header {
+  /* font-family: 'Lato'; */
+  font-family: "Open Sans", "Lato", "Roboto";
+  color: #323748;
+}
+.model-detail-header h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.model-detail-header h3 {
+  font-weight: 400;
+  margin-top: 0.5vh;
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+.model-details-data-table-wrapper {
+  padding-bottom: 3vh;
+}
+.model-detail-data-table-header {
+  display: flex;
+  flex-direction: row;
+}
+.model-detail-data-table-header h1 {
+  /* font-family: 'Nunito'; */
+  font-family: "Open Sans", "Lato", "Roboto";
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: 1px solid red;
+  color: #323748;
+}
+.model-details-export-as-csv-icon {
+  line-height: 1.45rem !important;
+}
+.model-details-export-csv {
+  margin-left: auto;
+  color: #323748;
+  /* font-family: 'Nunito'; */
+  font-family: "Open Sans", "Lato", "Roboto";
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 2vw;
+}
+
+

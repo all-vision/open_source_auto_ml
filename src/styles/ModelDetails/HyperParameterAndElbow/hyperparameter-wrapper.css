@@ -1,0 +1,69 @@
+
+.hyperparams-wrapper {
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    /* box-shadow: 0px 1px 15px rgba(0,0,0, .1); */
+    box-shadow: 0px 1px 15px rgba(0,0,0, .1);
+    margin-bottom: 2vh;
+}
+.hyperparameters-header {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-bottom: 1px solid #eee;
+}
+
+.hyperparameters-header h1 {
+    /* font-family: 'Lato'; */
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    font-weight: 600;
+    color: #333;
+    font-size: 1.1rem;
+    padding-left: 1vw;
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+}
+.hyperparameters-inputs-wrapper {
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid #eee;
+}
+.hyperparameter-input {
+    margin: 1rem!important;
+    flex-basis: 20%!important;
+    overflow: hidden!important;
+    /* border: 1px solid red; */
+}
+.hyperparameters-buttons-wrapper {
+    margin-top: 1vh;
+    padding-bottom: 1vh;
+}
+/* !important flags to override material-ui default styles */
+
+.hyperparameters-button {
+    margin: .5rem!important;
+    text-transform: capitalize!important;
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-weight: 600!important;
+    font-size: .9rem!important;
+}
+
+.hyperparameters-button.run {
+    background: #1565C0!important;
+}
+.hyperparameters-button.reset {
+    color: #323748!important;
+    margin-left: 1vw!important;
+    font-weight: 600!important;
+    opacity: .8!important;
+}
+
+@media screen and (max-width: 1919px) {
+    .hyperparameter-input {
+        margin: 1rem!important;
+        flex-basis: 29%;
+    }
+}

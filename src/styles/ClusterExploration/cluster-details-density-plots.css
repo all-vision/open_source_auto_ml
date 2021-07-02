@@ -1,0 +1,75 @@
+/* .cluster-details-density-plot-wrapper {
+    border: 1px solid red;
+
+} */
+.cluster-details-density-plot-section {
+    border: 1px solid red;
+    display: flex;
+    background-color: #eee;
+    border: 3px solid #e8e8e8;
+    padding-bottom: 2vh;
+    flex-direction: column;
+}
+.cluster-details-density-plot-section__header {
+    margin-left: 1vw;
+    margin-top: 2vh;
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    color:#323748;
+}
+.cluster-details-density-plot-section__header h1 {
+    font-size: 1.3rem;
+}
+.cluster-details-density-plot-section__header h3 {
+    font-size: 1.15rem;
+    opacity: .9;
+    margin-top: .25vh;
+    font-weight: 400;
+}
+.cluster-details-density-plot-section__header h3 span {
+    font-weight: 700!important;
+}
+.cluster-details-density-plot-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    border-radius: 3px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+.cluster-details-density-plot {
+    height:auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 21vw;
+    background-color: #fff;
+    margin: 1vw;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);  
+}
+.cluster-details-density-plot__title {
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    font-size: 1rem;
+    padding-left: 1vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    font-weight: 600!important;
+    border-bottom: 1px solid #eee;
+}
+.cluster-details-density-plot__title > span {
+    font-weight: 700!important;
+    color: #1565C0;
+}
+.load-all-columns-button {
+    background: #1565C0!important;
+    margin-left: 1vw!important;
+    color: #fafafa!important;
+    width: min-content;
+    white-space: nowrap;
+    text-transform: capitalize!important;
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    margin-top: 1vh!important;
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.font {
+  font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+}
+.login-wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background: #fafafa;
+  flex-direction: row !important;
+}
+.login-info {
+  display: flex;
+  flex: 0.5;
+  background: linear-gradient(#1565c0, #023773);
+}
+.login-info-content {
+  margin: auto;
+  margin-top: 25vh;
+  width: 60%;
+}
+.login-info-content h1 {
+  color: #fafafa;
+  /* font-family: Lato; */
+  font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+  font-size: 3.25rem;
+  font-weight: 900;
+  opacity: 0.9;
+}
+.login-info-content h2 {
+  font-size: 1.4rem;
+  color: #fafafa;
+  opacity: 0.8;
+  font-weight: 600;
+  font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+}
+.login-info-content p {
+  color: #fafafa;
+  /* font-family: Lato; */
+  font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+  font-size: 1.4rem;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.login-info-content-icons {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+.login-info-content-icon-wrapper {
+  display: flex;
+  margin-top: 2vh;
+  flex-direction: row;
+}
+.login-info-content-icon-wrapper p {
+  margin-left: 1vw;
+}
+
+.login-info-icon {
+  color: #fafafa;
+  opacity: 0.7;
+  /* font-family: Lato; */
+  font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+  height: 1.5rem;
+}
+
+.login-form {
+  display: flex;
+  flex: 1 !important;
+  background: #fff !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  padding: 2rem;
+  height: min-content;
+  border-radius: 5px;
+  box-shadow: 0px 0px 14px rgba(34, 34, 34, 0.05);
+}
+
+.login-button{
+  text-decoration: none;
+}
+
+.signin-button {
+  /* font-family: Nunito !important; */
+  font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+  text-transform: capitalize !important;
+  text-decoration: none !important;
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  color: #fafafa !important;
+  margin-top: 2vh !important;
+  background: #1565c0 !important;
+}
+.signin-header {
+  color: #323748;
+  font-size: 1.75rem !important;
+  font-weight: 500 !important;
+  /* font-family: Lato; */
+  font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+}
+
+.auth-links {
+  text-decoration: none;
+  color: #1565C0;
+  font-family: 'Open Sans', 'Lato', 'Roboto';
+  font-weight: 600
+}

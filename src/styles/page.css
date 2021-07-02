@@ -1,0 +1,30 @@
+.entire-content {
+    display:inline-block;
+}
+
+/* .sidebar-offset{
+    width: 80vw;
+    margin-left: 16vw;
+    padding-left: 2vw;
+} */
+
+.sidebar-container{
+    position: fixed;
+    background-color: hsl(214, 28%, 15%); 
+    width: 16vw;  
+ 
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+}
+
+.main-content{
+    display:flex;
+    flex-direction: column;
+    width: 80vw;  /* This width is [100vw - width of .sidebar-container - a little bit of vw]*/
+    margin-left: 16vw; /* This is the equal to the width of .sidebar-container*/
+    height: min-content;
+    padding-left: 2vw;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}

@@ -1,0 +1,112 @@
+body{ 
+    background-color: #fafafa;
+}
+.cluster-details-title {
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    font-weight: 600;
+    color: #323748;
+}
+.cluster-details-subtitle {
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    font-weight: 400;
+    margin-top: 1vh;
+    color: #323748;
+}
+.cluster-details-chart-and-metrics-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vh;
+}
+
+.cluster-details-scatterplot-wrapper {
+    display: flex;
+    flex: 1.75;
+    margin-bottom: 2vh;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1)!important;
+}
+.density-plot-container {
+    /* border: 1px solid red; */
+    width: min-content;
+    margin-top: 4vh;
+}
+.density-plot-container-header {
+    /* background: #eee;
+    padding-bottom: 1vh;
+    padding-top: 1vh; */
+}
+.density-plot-container-header h3 {
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    color: '#333';
+    font-size: 1.2rem;
+    margin-left: 1vw;
+}
+
+.cluster-scatterplot-wrapper {
+    width: 100%;
+    border-radius: 5px;
+}
+.cluster-details-metrics-wrapper {
+    display: flex;
+    flex: 1;
+    margin-left: 1vw;
+}
+.density-plots-wrapper {
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 0;
+    /* border: 1px solid red; */
+    border: 1px solid #eee;
+    flex-direction: row;
+}
+.density-plot {
+    border: 1px solid #eee;
+    display: flex;
+    background-color: #eee;
+    width: 600px;
+    /* flex: 1; */
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1)!important;
+    height: 30vh;
+}
+.density-plot.other-clusters {
+    margin-left: 1vw;
+}
+.cluster-stats-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1vw;
+}
+.cluster-stats-wrapper {
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    background: #fff;
+    flex-direction: column;
+    display: flex;
+    margin-left: 1vw;
+    /* height: min-content; */
+    padding: 1rem;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1)!important;
+    flex:1;
+    width: 300px;
+    border: 1px solid #eee;
+}
+.cluster-stats-wrapper h3 {
+    white-space: nowrap;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.cluster-stats-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5vh;
+}
+.cluster-stats-key {
+    font-weight: 500;
+}
+.cluster-stats-value {
+    font-weight: 500;
+    margin-left: auto;
+}
+.density-plot-and-stats-wrapper {
+    display: flex;
+    margin-top: 2vh;
+    flex-direction: row;
+}

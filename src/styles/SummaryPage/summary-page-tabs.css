@@ -1,0 +1,25 @@
+.summary-page-tabs-wrapper {
+    color: #323748!important;
+    margin-left: 13vw;
+    background: #eee!important;
+    box-shadow: none!important;
+    overflow-x: hidden!important;
+    border-bottom: 1px solid #eee!important;
+}
+.summary-page-tabs {
+    margin-left: 4vw;
+    width: 25vw!important;
+    display: flex;
+    flex-direction: row;
+}
+.summary-page-tabs h3 {
+    font-family: 'Lato';
+    color: #323748;
+    font-weight: 700;
+    margin-right: 2vw;
+    opacity: .5;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 1rem;
+    line-height: 1rem;
+}

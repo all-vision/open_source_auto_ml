@@ -1,0 +1,49 @@
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.deb-table-header {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+}
+.deb-table-header h1 {
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    color: #323748;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.filtered-by-cluster-string {
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    color: #323748;
+    font-weight: 500;
+    margin-top: .2vh;
+    font-size: 1.1rem;
+}
+.deb-export-csv {
+    margin-left: auto;
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    margin-right: 2vw;
+    color: #323748;
+    text-decoration: none;
+}
+.data-table-wrapper {
+    background: #fff;
+    /* height: 100%!important; */
+    /* border: 1px solid red; */
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 98%;
+    box-shadow: 0px 1px 15px rgba(0,0,0, .1);
+    border-radius: 5px;
+}
+.table-row {
+    border-top: 1px solid #eee!important;
+    color: #323748;
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    text-transform: capitalize;
+ }

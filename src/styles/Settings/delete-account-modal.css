@@ -1,0 +1,45 @@
+.delete-account-modal {
+    padding: .5rem;
+}
+.delete-account-modal-title {
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #323748;
+}
+.delete-account-modal-subtitle {
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    margin-top: 1vh;
+    opacity: .8;
+    color: #323748;
+}
+
+.cancel-subscription-modal-buttons-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh!important;
+    width: 100%!important;
+}
+
+/* !important flag to override default material ui button styles */
+.delete-account-modal-button {
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-weight: 600!important;
+    display: flex;
+    flex: 1;
+    margin: .25rem!important;
+    font-size: .9rem!important;
+    white-space: nowrap!important;
+    text-transform: capitalize!important;
+}
+.delete-account-modal-button.cancel {
+    background: #eee!important;
+    color: #323748!important;
+}
+.delete-account-modal-button.delete {
+    background: #D32E2E!important;
+    color: #fafafa!important;
+}

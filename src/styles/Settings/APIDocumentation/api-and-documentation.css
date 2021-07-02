@@ -1,0 +1,52 @@
+.api-key-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 0.5rem;
+    margin-top: 2vh;
+    /* border: 1px solid red; */
+  }
+  .api-key-wrapper-header {
+    font-family: "Open Sans", "Lato", "Roboto";
+    color: #323748;
+    font-weight: 500;
+    font-size: .95rem;
+  }
+  .api-key-content-wrapper {
+    font-family: "Open Sans", "Lato", "Roboto";
+    color: #323748;
+    font-weight: 400!important;
+    background: #f5f5f5;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 1vh;
+    padding: 0.75rem;
+    opacity: 0.9;
+    font-size: 1rem;
+    margin-bottom: 2vh;
+  }
+  .api-key-wrapper-content {
+      width: min-content;
+  }
+  .api-key-wrapper-content:hover {
+      cursor: pointer;
+  }
+  .link-to-documentation {
+    font-family: "Open Sans", "Lato", "Roboto";
+    color: #323748;
+    font-size: 1.2rem;
+    margin-top: 2vh!important;
+    color: #1565C0;
+  }
+  /* .api-key-wrapper-content {
+    font-family: "Open Sans", "Lato", "Roboto";
+    color: #323748;
+    font-weight: 400;
+    background: #f5f5f5;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 1vh;
+    padding: 0.75rem;
+    opacity: 0.9;
+    font-size: 1rem;
+  } */

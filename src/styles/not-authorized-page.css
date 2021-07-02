@@ -1,0 +1,29 @@
+.not-authorized-wrapper {
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+.not-authorized-content {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.not-authorized-content h1 {
+    font-family: 'Open Sans', 'Lato', 'Roboto';
+    font-weight: 900;
+    font-size: 3rem;
+    color: #323748
+}
+
+/*  !important flags to override material-ui default styles */
+.not-authorized-button {
+    margin: auto!important;
+    padding: 1rem!important;
+    margin-top: 3vh!important;
+    text-transform: capitalize!important;
+    font-family: 'Open Sans', 'Lato', 'Roboto'!important;
+    font-weight: 600!important;
+    font-size: 1rem!important;
+    background: #1565C0!important;
+}
